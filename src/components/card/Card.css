@@ -1,0 +1,64 @@
+.card {
+    display: flex;
+    gap: 1rem;
+    border-radius: 20px;
+    background-color: rgb(242, 242, 242);
+    box-sizing: border-box;
+    overflow: hidden;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 240px;
+    max-height: 240px;
+
+}
+
+
+.card .container-img {
+    min-width: 240px;
+    max-width: 240px;
+}
+
+.card .container-img img {
+    height: 100%;
+}
+
+.card .container-description {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0.3rem 0 ;
+}
+
+
+.card .container-description .status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card .container-description .status .circle-status {    
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.card .container-description .status .circle-status.alive {    
+    background-color: rgb(73, 161, 73);
+}
+
+.card .container-description .status .circle-status.dead  {    
+    background-color: rgb(190, 58, 51);
+}
+
+.card .container-description .status .circle-status.unknown  {    
+    background-color: rgb(139, 139, 139);
+}
+
+
+
+
+
+.subtitle {
+    color: rgb(90, 90, 90);
+}

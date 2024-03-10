@@ -1,0 +1,22 @@
+.app{
+  min-height: 100vh;
+  max-height: 100vh;
+  /* height: 100vh; */
+  overflow: auto;
+  /* background-color: rgb(49, 49, 49); */
+}
+
+.title{ 
+  text-align: center;
+  margin-bottom: 12px;
+  margin-top: 20px;
+}
+
+.container-card{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
