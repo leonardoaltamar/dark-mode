@@ -15,8 +15,8 @@ export const Card = ({element}) => {
           </div>
         </section>
         
-        <section>
-          <h4 className='subtitle' >Episodes where it appears: </h4>
+        <section className='subtitle'>
+          <h4>Episodes where it appears: </h4>
           <p>{element.episode.length} Episodes</p>
         </section>
 

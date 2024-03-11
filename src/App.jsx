@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import axios from 'axios'
 import { Card } from './components/card/CardComponent'
+import { ToggleComponent } from './components/toggle/ToggleComponent'
 
 
 function App() {
@@ -42,7 +43,11 @@ function App() {
   
   return (
     <div className='app' onScroll={handleScroll}>
-      <h2 className='title'>Ricky And Morty</h2>
+      <div className='header'>
+        <h2 className='title'>Ricky And Morty</h2>
+        <ToggleComponent />
+      </div>
+
       <div className='container-card'>
         {
           items.map(item => (

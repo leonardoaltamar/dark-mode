@@ -3,9 +3,11 @@
   line-height: 1.5;
   font-weight: 400;
 
-  /* color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424; */
+  
+  --background-color: #fff;
+  --color-title: black;
+  --subtitle: #5A5A5A;
+  --background-card: rgb(242, 242, 242);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -13,12 +15,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+[data-theme="dark"]{
+  --background-color: #242424;;
+  --color-title: #fff;
+  --subtitle: #fff;
+  --background-card: rgb(60, 62, 68);
+}
+
 *{
   padding: 0;
   margin: 0;
+  /* transition: 0.5s; */
 }
 
 
+/* 
+  darkmode
+  background-color:#242424;
+*/
 
 
 

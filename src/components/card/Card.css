@@ -2,7 +2,7 @@
     display: flex;
     gap: 1rem;
     border-radius: 20px;
-    background-color: rgb(242, 242, 242);
+    background-color: var(--background-card);
     box-sizing: border-box;
     overflow: hidden;
     min-width: 600px;
@@ -10,6 +10,7 @@
     min-height: 240px;
     max-height: 240px;
 
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
 
@@ -60,5 +61,5 @@
 
 
 .subtitle {
-    color: rgb(90, 90, 90);
+    color: var(--subtitle);
 }
