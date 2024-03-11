@@ -44,7 +44,7 @@ function App() {
   return (
     <div className='app' onScroll={handleScroll}>
       <div className='header'>
-        <h2 className='title'>Ricky And Morty</h2>
+        <h2 className='title'>Ricky And Morty v2</h2>
         <ToggleComponent />
       </div>
 
