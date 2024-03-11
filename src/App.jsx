@@ -5,6 +5,7 @@ import './App.css'
 import axios from 'axios'
 import { Card } from './components/card/CardComponent'
 import { ToggleComponent } from './components/toggle/ToggleComponent'
+import { AppTheme } from './theme'
 
 
 function App() {
@@ -42,20 +43,22 @@ function App() {
   
   
   return (
-    <div className='app' onScroll={handleScroll}>
-      <div className='header'>
-        <h2 className='title'>Ricky And Morty v2</h2>
-        <ToggleComponent />
-      </div>
+    <AppTheme>
+      <div className='app' onScroll={handleScroll}>
+        <div className='header'>
+          <h2 className='title'>Ricky And Morty v2</h2>
+          <ToggleComponent />
+        </div>
 
-      <div className='container-card'>
-        {
-          items.map(item => (
-            <Card key={item.id} element={item}/>
-          ))
-        }
+        <div className='container-card'>
+          {
+            items.map(item => (
+              <Card key={item.id} element={item}/>
+            ))
+          }
+        </div>
       </div>
-    </div>
+    </AppTheme>
   )
 }
 

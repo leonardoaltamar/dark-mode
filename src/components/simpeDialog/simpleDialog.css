@@ -1,0 +1,42 @@
+.content-title{
+    background-color: var(--background-card);
+    color: var(--color-title);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.content-text{
+    padding: 1rem;
+    background-color: var(--background-card);
+}
+
+.content-text .description{
+    margin-bottom: 12px;
+    
+}
+
+ .status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--color-title);
+}
+
+.circle-status {
+    width: 15px !important;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.circle-status.alive {
+    background-color: rgb(73, 161, 73);
+}
+
+.circle-status.dead {
+    background-color: rgb(190, 58, 51);
+}
+
+.circle-status.unknown {
+    background-color: rgb(139, 139, 139);
+}
