@@ -28,10 +28,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 0.3rem 0 ;
+    padding: 0.3rem 0;
 }
 
-.card .container-description .info-person .name{
+.card .container-description .info-person .name {
     color: var(--color-title);
 }
 
@@ -43,21 +43,21 @@
     color: var(--color-title);
 }
 
-.card .container-description .status .circle-status {    
+.card .container-description .status .circle-status {
     width: 15px;
     height: 15px;
     border-radius: 50%;
 }
 
-.card .container-description .status .circle-status.alive {    
+.card .container-description .status .circle-status.alive {
     background-color: rgb(73, 161, 73);
 }
 
-.card .container-description .status .circle-status.dead  {    
+.card .container-description .status .circle-status.dead {
     background-color: rgb(190, 58, 51);
 }
 
-.card .container-description .status .circle-status.unknown  {    
+.card .container-description .status .circle-status.unknown {
     background-color: rgb(139, 139, 139);
 }
 
@@ -69,6 +69,14 @@
     color: var(--subtitle);
 }
 
-.paragrah{
+.paragrah {
     color: var(--paragrah);
+}
+
+
+@media screen and (max-width: 640px) {
+    .card {
+        min-width: 500px;
+        max-width: 500px;
+    }
 }

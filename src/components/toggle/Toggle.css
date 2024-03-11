@@ -85,7 +85,7 @@ input[type=checkbox]:checked + .display label .circle{
 }
 
 input[type=checkbox]:checked + .display label .circle .sun{
-    margin-top: 165%;    
+    margin-top: 170%;    
     transition: 0.5s;
 }
 
