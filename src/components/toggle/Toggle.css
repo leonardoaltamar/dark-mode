@@ -59,7 +59,7 @@ svg{
 }
 
 .moon {
-    margin-top: -165%;
+    margin-top: -180%;
     transition: 0.5s;
     color: white;
 }
@@ -85,7 +85,7 @@ input[type=checkbox]:checked + .display label .circle{
 }
 
 input[type=checkbox]:checked + .display label .circle .sun{
-    margin-top: 170%;    
+    margin-top: 190%;    
     transition: 0.5s;
 }
 
