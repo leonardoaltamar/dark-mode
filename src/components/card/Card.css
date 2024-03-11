@@ -76,7 +76,26 @@
 
 @media screen and (max-width: 640px) {
     .card {
-        min-width: 500px;
-        max-width: 500px;
+        min-width: 310px;
+        max-width: 310px;
+        min-height: 100px;
+        max-height: 100px;
+    }
+
+    .card .container-description .info-person .name{
+        font-size: 13px;
+    }
+
+    .card .container-description .info-person .status{
+        font-size: 12px;
+    }
+
+    .card .container-img {
+        min-width: 100px;
+        max-width: 100px;
+    }
+
+    .section{
+        display: none;
     }
 }
