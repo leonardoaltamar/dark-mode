@@ -15,19 +15,19 @@ export const Card = ({element}) => {
           </div>
         </section>
         
-        <section className='subtitle'>
-          <h4>Episodes where it appears: </h4>
-          <p>{element.episode.length} Episodes</p>
+        <section>
+          <h4 className='subtitle'>Episodes where it appears: </h4>
+          <p className='paragrah'>{element.episode.length} Episodes</p>
         </section>
 
-        <section className='subtitle'>
-          <h4>Last known location: </h4>
-          <p>{element.location.name} </p>
+        <section>
+          <h4 className='subtitle'>Last known location: </h4>
+          <p className='paragrah'>{element.location.name} </p>
         </section>
 
-        <section className='subtitle'>
-          <h4>Gender: </h4>
-          <p>{element.gender} </p>
+        <section>
+          <h4 className='subtitle'>Gender: </h4>
+          <p className='paragrah'>{element.gender} </p>
         </section>
         
       </div>

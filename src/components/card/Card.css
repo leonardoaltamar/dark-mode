@@ -31,11 +31,16 @@
     padding: 0.3rem 0 ;
 }
 
+.card .container-description .info-person .name{
+    color: var(--color-title);
+}
+
 
 .card .container-description .status {
     display: flex;
     align-items: center;
     gap: 10px;
+    color: var(--color-title);
 }
 
 .card .container-description .status .circle-status {    
@@ -62,4 +67,8 @@
 
 .subtitle {
     color: var(--subtitle);
+}
+
+.paragrah{
+    color: var(--paragrah);
 }
