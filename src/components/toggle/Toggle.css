@@ -93,5 +93,6 @@ input[type=checkbox]:checked + .display label .circle .sun{
 
 input[type=checkbox]:checked + .display label .circle .moon{
     margin-top: 0%;  
+    display: block;
     transition: 0.5s;  
 }
